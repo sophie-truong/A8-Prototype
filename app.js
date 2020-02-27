@@ -17,6 +17,8 @@ var login = require('./routes/login');
 var add = require('./routes/add');
 var update = require('./routes/update');
 var user = require('./routes/user');
+
+var tester = require('./routes/tester');
 // Example route
 // var user = require('./routes/user');
 
@@ -51,6 +53,8 @@ app.get('/login', login.auth);
 app.get('/add', add.addFriend);
 app.get('/update', update.updateUser);
 app.get('/user', user.getUser);
+
+app.get('/tester', tester.view);
 
 // Example route
 // app.get('/users', user.list);

@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- gives browser instructions on how to control
   page dimensions and scaling -->
-
- 
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="/css/bootstrap.css" rel="stylesheet">
   <link href="/css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/newCSS.css" rel="stylesheet">
   <!-- <link href="/css/plant.css" rel="stylesheet">
   <link href="css/hydration.css" rel="stylesheet"> -->
 
@@ -17,7 +18,7 @@
   <script src="/js/takesip.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="container fluid-nav text-center">
     <h2><i class="arrow leftArrow glyphicon glyphicon-arrow-left" onclick="history.back(-1)"></i>Sip</h2>
     <hr size="50">
 
@@ -29,9 +30,29 @@
         <input type="submit" id="submitBtn" class="btn btn-default" value="Take a Sip!"></input>
       </form>
 
-   <div class="row">
+
+    <!-- nav bar -->
+      <div class = "navbar-fixed-bottom" style="background: orange;">
+            <ul class = "nav navbar-nav col-centered">
+              <div class="row">
+                <div class="container">
+                  <div class="sipRight col-md-6 col-sm-6 col-xs-6">
+                    <li><a href="sip">Sip</a></li>
+                  </div>
+                  <div class="friendsRight col-md-6 col-sm-6 col-xs-6">
+                    <li><a href="friends">Friends</a></li>
+                  </div>
+                </div>
+              </div>
+            </ul>
+         </div>
+      </nav>
+    <!-- button
+    <div class="col-md-12 col-xs-12 col-centered">
       <a href="sip"><button class="btn btn-default col-md-6" >Sip</button></a>
       <a href="friends"><button class="btn btn-default col-md-6" >Friends</button></a>
+    -->
+
   </div>
 </div>
 

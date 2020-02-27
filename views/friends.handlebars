@@ -24,6 +24,8 @@
 	    	<input type="submit" id="submitBtn" class="btn btn-default" value="Add"></input>
 	    </div>
 	    </form>
+
+    	<div class="col-md-12 col-xs-12 col-centered">
 			{{#each users}}
 				{{#if isUser}}
 
@@ -31,12 +33,13 @@
 				{{else}}
 				<div onclick="location.href= '/shared/{{name}}' ">
 					<h3 class="friend" style="float: left;">
-						{{name}}  <img class="friend-pager" style="padding: 20px;" src="/images/plant.png" ... />
+						{{name}}  <img class="img-responsive friend-pager" style="padding: 20px;" src="/images/plant.png" ... />
 					</h3>
 				</div>
 				{{/if}}
 			{{/each}}
 		</div>
+	</div>
 
 
 
