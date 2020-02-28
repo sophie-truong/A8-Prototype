@@ -43,12 +43,24 @@
   margin-right: auto;
   width: 40%;
   height: 100%;
+  transition-duration: 0.4s;
+}
+
+.friendContainer h3:hover {
+  border: 5px solid #edf4fa;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border-radius: 25px;
+
 
 }
 
-.friendContainer img:hover {
-  border: 2px solid whites;
-  cursor: pointer;
+.friendBorder {
+ text-align: center;
+ display: block;
+ margin-bottom: 30px;
+ border: solid #D5DFB9;
+ padding: -50px;
 
 }
 
@@ -62,15 +74,9 @@
 
 }
 
-
-
-
-.plantChange {
-  display: inline-block;
-}
-
-.plantChange: hover {
-  background-color: yellow;
+.plantStaySame {
+height: auto;
+width: auto;
 }
 
 .shelf {
