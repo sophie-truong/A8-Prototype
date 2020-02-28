@@ -1,9 +1,74 @@
-.sipRight {
-	 text-align: center;
-	 padding: 10px;
+.sipButtonPad {
+	padding: 10px;
+	margin-top: 15px;
 }
 
-.friendsRight {
-	 text-align: center;
-	 padding: 10px;
+.moveBottleUp {
+	margin-top: -10px;
+}
+
+.paddingThatArrow {
+	margin-right: 70px;
+}
+
+.borderingNav {
+	border-color: white;
+	border-width: 2px;
+}
+
+.thatPadding {
+	padding: 20px;
+}
+
+.friendBorder {
+  margin: none;
+  border: 1px solid #000000;
+  padding: 80px;
+}
+
+.friend-list {
+  height: 100%;
+  width: 100%;
+}
+
+.pot {
+  margin-top: 0px;
+  height: 80%;
+}
+
+.friendContainer {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100%;
+
+}
+
+.plantChange {
+  display: inline-block;
+}
+
+.plantChange: hover {
+  background-color: yellow;
+}
+
+.shelf {
+  position: relative;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  padding-top: 30px;
+
+}
+
+.prize {
+  position: absolute;
+  left: 35;
+  top: -140;
+  width: 90px;
+}
+
+body{
+    overflow-x:hidden;
 }
