@@ -1,10 +1,18 @@
 .sipButtonPad {
 	padding: 10px;
-	margin-top: 15px;
+	margin-top: 5px;
+}
+
+.moveTextUp {
+  margin-top: -135px;
 }
 
 .moveBottleUp {
 	margin-top: -10px;
+  width: 60%;
+  height: 85%;
+  display: inline-block;
+  margin-bottom: -30px;
 }
 
 .paddingThatArrow {
