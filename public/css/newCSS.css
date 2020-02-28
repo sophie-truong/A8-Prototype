@@ -46,11 +46,11 @@
 
 .friendContainer {
   text-align: center;
-  display: block;
+  display: vertical;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  height: 100%;
+  width: 60%;
+  height: 0%;
   transition-duration: 0.4s;
 }
 
@@ -73,19 +73,25 @@
 }
 
 .plantContainer {
-  text-align: center;
-  display: block;
+ text-align: center;
+  display: vertical;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  height: 100%;
+  width: 60%;
+  height: 70%;
+  transition-duration: 0.4s;
 
 }
 
-.plantStaySame {
+.plantSize {
 height: auto;
-width: auto;
+width: 100%
 }
+
+.sharedSize {
+display: inline-block;
+}
+
 
 .shelf {
   position: relative;
