@@ -19,26 +19,27 @@
 		<!-- beginning friend list -->
 			<div class="friend-list">
 					<div class = "friendContainer">
-					<form id="addFriendForm" role="form" method="get" action="/add">
-					<h3>Add a Friend</h3>
-	    			<div class="form-group">
-	      				<input type="text" class="form-control" id="name" placeholder="Name" name="name">
-	      			</div>
-	    			<input type="submit" id="submitBtn" class="btn btn-default" value="Add"></input>
-	    			</form>
-				{{#each users}}
-				{{#if isUser}}
+							<form id="addFriendForm" role="form" method="get" action="/add">
+							<h2>Add a Friend</h2>
+	    					<div class="form-group">
+	      						<input type="text" class="form-control" id="name" placeholder="Name" name="name">
+	      					</div>
+	    					<input type="submit" id="submitBtn" class="btn btn-default" value="Add"></input>
+	    					</form>
 
-				{{else}}
-				<div onclick="location.href= '/shared/{{name}}' ">
-					<h3 style="float: left;">
-						{{name}} <img class="friend-pager plantChange" style="padding: 20px;" src="/images/seed.png" ... />
-					</h3>
-				{{/if}}
-				{{/each}}
-				</div>
+						{{#each users}}
+						{{#if isUser}}
+
+						{{else}}
+						<div onclick="location.href= '/shared/{{name}}' ">
+							<h3 class="friendBorder">
+							{{name}} <img class="img-responsive plantStaySame" style="padding: 20px;" src="/images/seed.png" ... />
+							</h3>
+						{{/if}}
+						{{/each}}
+						</div>
+					</div>
 			</div>
-		</div>
 
 
 
