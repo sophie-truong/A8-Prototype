@@ -4,13 +4,12 @@
 }
 
 .moveTextUp {
-  margin-top: -135px;
+  margin-top: -80px;
 }
 
 .moveBottleUp {
-	margin-top: -10px;
-  width: 60%;
-  height: 85%;
+  width: auto;
+  height: 75%;
   display: inline-block;
   margin-bottom: -30px;
 }
