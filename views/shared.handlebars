@@ -16,23 +16,23 @@
 		<h2><i class="arrow leftArrow" onclick="history.back(-1)"></i>Shared Plant</h2>
 		<hr size="30">
 	
-
+	<div class = "plantContainer">
 	<h1>{{friendName}}</h1>
 
 	<div class = "pot" style="width:100%">
-		<img src = "/images/seed.png">
+		<img class="sharedSize" src = "/images/seed.png">
 		
 		<div class = "row">
-			<div class = "col-md-6">
+			<div class = "col-md-6 col-sm-6 col-xs-6">
 				<h4>{{friendName}}:</h4>
 				<h5>{{friendScore}}/8</h5>
 			</div>
-			<div class = "col-md-6">
+			<div class = "col-md-6 col-sm-6 col-xs-6">
 				<h4>You:</h4>
 				<h5>{{userScore}}/8</h5>
 			</div>
 		</div>
-		 <a href="/archive"><button style="width:30%" class="btn btn-default">Past Plants</button></a>
+		 <a href="/archive"><button  class="btn btn-default">Past Plants</button></a>
 	</div>
 
 	  <nav class="borderingNav navbar navbar-default navbar-fixed-bottom" style="background: #D5DFB9">
