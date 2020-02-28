@@ -18,9 +18,9 @@
   <script src="/js/takesip.js"></script>
 </head>
 <body>
-  <div class="container fluid-nav text-center">
+  <div class="text-center">
     <h2><i class="arrow leftArrow glyphicon glyphicon-arrow-left" onclick="history.back(-1)"></i>Sip</h2>
-    <hr size="50">
+    <hr>
 
     <div class="cup sip-tracker" id="0">
       <img class= "img-responsive" src="/images/Cup0.png" ... />
@@ -29,24 +29,22 @@
     <form id="addFriendForm" role="form" method="get" action="/update" class="sipBtn">
         <input type="submit" id="submitBtn" class="btn btn-default" value="Take a Sip!"></input>
       </form>
-
-
-    <!-- nav bar -->
-      <div class = "navbar-fixed-bottom" style="background: orange;">
+<!-- nav bar -->
+      <div class = "navbar-fixed-bottom">
             <ul class = "nav navbar-nav">
               <div class="row">
                 <!-- <div class="container"> -->
-                  <div class="glyphicon glyphicon-tint sipRight col-md-6 col-sm-6 col-xs-6">
+                  <div class="glyphicon glyphicon-tint  col-md-6">
                     <li><a href="sip">Sip</a></li>
                   </div>
-                  <div class="glyphicon glyphicon-leaf friendsRight col-md-6 col-sm-6 col-xs-6">
+                  <div class="glyphicon glyphicon-leaf col-md-6">
                     <li><a href="friends">Friends</a></li>
                   </div>
                <!-- </div> -->
               </div>
             </ul>
          </div>
-      </nav>
+      
     <!-- button
     <div class="col-md-12 col-xs-12 col-centered">
       <a href="sip"><button class="btn btn-default col-md-6" >Sip</button></a>
@@ -54,7 +52,6 @@
     -->
 
   </div>
-</div>
 
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src= "js/bootstrap.js"></script>
